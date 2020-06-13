@@ -13,6 +13,41 @@
 		A3AAE9E724952BDA00D63DAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3AAE9E524952BDA00D63DAC /* Main.storyboard */; };
 		A3AAE9E924952BDB00D63DAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3AAE9E824952BDB00D63DAC /* Assets.xcassets */; };
 		A3AAE9EC24952BDB00D63DAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3AAE9EA24952BDB00D63DAC /* LaunchScreen.storyboard */; };
+		A3AAEA1A24952C5000D63DAC /* SessionPageSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AAE9F324952C5000D63DAC /* SessionPageSwift.swift */; };
+		A3AAEA1B24952C5000D63DAC /* ListCharacterScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AAE9F524952C5000D63DAC /* ListCharacterScreen.swift */; };
+		A3AAEA1D24952C5000D63DAC /* ListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AAE9F724952C5000D63DAC /* ListItem.swift */; };
+		A3AAEA1E24952C5000D63DAC /* SelectionColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AAE9F824952C5000D63DAC /* SelectionColor.swift */; };
+		A3AAEA1F24952C5000D63DAC /* Player-Attributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AAE9F924952C5000D63DAC /* Player-Attributes.swift */; };
+		A3AAEA2024952C5000D63DAC /* Setting.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AAE9FA24952C5000D63DAC /* Setting.swift */; };
+		A3AAEA2124952C5000D63DAC /* CharacterScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AAE9FB24952C5000D63DAC /* CharacterScreen.swift */; };
+		A3AAEA2224952C5000D63DAC /* BackpackScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AAE9FC24952C5000D63DAC /* BackpackScreen.swift */; };
+		A3AAEA2324952C5000D63DAC /* JoiningSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AAE9FD24952C5000D63DAC /* JoiningSession.swift */; };
+		A3AAEA2424952C5000D63DAC /* xategoryValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AAE9FE24952C5000D63DAC /* xategoryValues.swift */; };
+		A3AAEA2524952C5000D63DAC /* SessionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AAE9FF24952C5000D63DAC /* SessionList.swift */; };
+		A3AAEA2624952C5000D63DAC /* CreateCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AAEA0024952C5000D63DAC /* CreateCategory.swift */; };
+		A3AAEA2724952C5000D63DAC /* CreateSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AAEA0124952C5000D63DAC /* CreateSession.swift */; };
+		A3AAEA2824952C5000D63DAC /* Sessions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AAEA0224952C5000D63DAC /* Sessions.swift */; };
+		A3AAEA2924952C5000D63DAC /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AAEA0324952C5000D63DAC /* SearchBar.swift */; };
+		A3AAEA2A24952C5000D63DAC /* CreateItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AAEA0424952C5000D63DAC /* CreateItem.swift */; };
+		A3AAEA2B24952C5000D63DAC /* GM-Attributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AAEA0524952C5000D63DAC /* GM-Attributes.swift */; };
+		A3AAEA2C24952C5000D63DAC /* List-Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AAEA0624952C5000D63DAC /* List-Session.swift */; };
+		A3AAEA2D24952C5000D63DAC /* EquipScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AAEA0724952C5000D63DAC /* EquipScreen.swift */; };
+		A3AAEA2E24952C5000D63DAC /* CategoryList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AAEA0824952C5000D63DAC /* CategoryList.swift */; };
+		A3AAEA2F24952C5000D63DAC /* ItemGameMaster.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AAEA0924952C5000D63DAC /* ItemGameMaster.swift */; };
+		A3AAEA3024952C5000D63DAC /* CategoryValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AAEA0A24952C5000D63DAC /* CategoryValues.swift */; };
+		A3AAEA3124952C5000D63DAC /* MainGestureServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AAEA0B24952C5000D63DAC /* MainGestureServer.swift */; };
+		A3AAEA3224952C5000D63DAC /* CharacterSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AAEA0C24952C5000D63DAC /* CharacterSheet.swift */; };
+		A3AAEA3324952C5000D63DAC /* prov2.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AAEA0D24952C5000D63DAC /* prov2.swift */; };
+		A3AAEA3424952C5000D63DAC /* InventorySocketManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AAEA0E24952C5000D63DAC /* InventorySocketManager.swift */; };
+		A3AAEA3524952C5000D63DAC /* ItemScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AAEA0F24952C5000D63DAC /* ItemScreen.swift */; };
+		A3AAEA3624952C5000D63DAC /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AAEA1024952C5000D63DAC /* LoginScreen.swift */; };
+		A3AAEA3724952C5000D63DAC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AAEA1124952C5000D63DAC /* ContentView.swift */; };
+		A3AAEA3824952C5000D63DAC /* prov.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AAEA1224952C5000D63DAC /* prov.swift */; };
+		A3AAEA3924952C5000D63DAC /* Packaging.log in Resources */ = {isa = PBXBuildFile; fileRef = A3AAEA1424952C5000D63DAC /* Packaging.log */; };
+		A3AAEA3A24952C5000D63DAC /* ExportOptions.plist in Resources */ = {isa = PBXBuildFile; fileRef = A3AAEA1524952C5000D63DAC /* ExportOptions.plist */; };
+		A3AAEA3B24952C5000D63DAC /* D&D-Tool.ipa in Resources */ = {isa = PBXBuildFile; fileRef = A3AAEA1624952C5000D63DAC /* D&D-Tool.ipa */; };
+		A3AAEA3C24952C5000D63DAC /* DistributionSummary.plist in Resources */ = {isa = PBXBuildFile; fileRef = A3AAEA1724952C5000D63DAC /* DistributionSummary.plist */; };
+		A3AAEA3D24952C5000D63DAC /* prov3.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AAEA1824952C5000D63DAC /* prov3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +59,41 @@
 		A3AAE9E824952BDB00D63DAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A3AAE9EB24952BDB00D63DAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A3AAE9ED24952BDB00D63DAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3AAE9F324952C5000D63DAC /* SessionPageSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionPageSwift.swift; sourceTree = "<group>"; };
+		A3AAE9F524952C5000D63DAC /* ListCharacterScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListCharacterScreen.swift; sourceTree = "<group>"; };
+		A3AAE9F724952C5000D63DAC /* ListItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListItem.swift; sourceTree = "<group>"; };
+		A3AAE9F824952C5000D63DAC /* SelectionColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectionColor.swift; sourceTree = "<group>"; };
+		A3AAE9F924952C5000D63DAC /* Player-Attributes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Player-Attributes.swift"; sourceTree = "<group>"; };
+		A3AAE9FA24952C5000D63DAC /* Setting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Setting.swift; sourceTree = "<group>"; };
+		A3AAE9FB24952C5000D63DAC /* CharacterScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterScreen.swift; sourceTree = "<group>"; };
+		A3AAE9FC24952C5000D63DAC /* BackpackScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackpackScreen.swift; sourceTree = "<group>"; };
+		A3AAE9FD24952C5000D63DAC /* JoiningSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JoiningSession.swift; sourceTree = "<group>"; };
+		A3AAE9FE24952C5000D63DAC /* xategoryValues.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = xategoryValues.swift; sourceTree = "<group>"; };
+		A3AAE9FF24952C5000D63DAC /* SessionList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionList.swift; sourceTree = "<group>"; };
+		A3AAEA0024952C5000D63DAC /* CreateCategory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateCategory.swift; sourceTree = "<group>"; };
+		A3AAEA0124952C5000D63DAC /* CreateSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateSession.swift; sourceTree = "<group>"; };
+		A3AAEA0224952C5000D63DAC /* Sessions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sessions.swift; sourceTree = "<group>"; };
+		A3AAEA0324952C5000D63DAC /* SearchBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		A3AAEA0424952C5000D63DAC /* CreateItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateItem.swift; sourceTree = "<group>"; };
+		A3AAEA0524952C5000D63DAC /* GM-Attributes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "GM-Attributes.swift"; sourceTree = "<group>"; };
+		A3AAEA0624952C5000D63DAC /* List-Session.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "List-Session.swift"; sourceTree = "<group>"; };
+		A3AAEA0724952C5000D63DAC /* EquipScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EquipScreen.swift; sourceTree = "<group>"; };
+		A3AAEA0824952C5000D63DAC /* CategoryList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryList.swift; sourceTree = "<group>"; };
+		A3AAEA0924952C5000D63DAC /* ItemGameMaster.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemGameMaster.swift; sourceTree = "<group>"; };
+		A3AAEA0A24952C5000D63DAC /* CategoryValues.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryValues.swift; sourceTree = "<group>"; };
+		A3AAEA0B24952C5000D63DAC /* MainGestureServer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainGestureServer.swift; sourceTree = "<group>"; };
+		A3AAEA0C24952C5000D63DAC /* CharacterSheet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterSheet.swift; sourceTree = "<group>"; };
+		A3AAEA0D24952C5000D63DAC /* prov2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = prov2.swift; sourceTree = "<group>"; };
+		A3AAEA0E24952C5000D63DAC /* InventorySocketManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InventorySocketManager.swift; sourceTree = "<group>"; };
+		A3AAEA0F24952C5000D63DAC /* ItemScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemScreen.swift; sourceTree = "<group>"; };
+		A3AAEA1024952C5000D63DAC /* LoginScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
+		A3AAEA1124952C5000D63DAC /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A3AAEA1224952C5000D63DAC /* prov.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = prov.swift; sourceTree = "<group>"; };
+		A3AAEA1424952C5000D63DAC /* Packaging.log */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Packaging.log; sourceTree = "<group>"; };
+		A3AAEA1524952C5000D63DAC /* ExportOptions.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ExportOptions.plist; sourceTree = "<group>"; };
+		A3AAEA1624952C5000D63DAC /* D&D-Tool.ipa */ = {isa = PBXFileReference; lastKnownFileType = file; path = "D&D-Tool.ipa"; sourceTree = "<group>"; };
+		A3AAEA1724952C5000D63DAC /* DistributionSummary.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DistributionSummary.plist; sourceTree = "<group>"; };
+		A3AAEA1824952C5000D63DAC /* prov3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = prov3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +133,59 @@
 				A3AAE9E824952BDB00D63DAC /* Assets.xcassets */,
 				A3AAE9EA24952BDB00D63DAC /* LaunchScreen.storyboard */,
 				A3AAE9ED24952BDB00D63DAC /* Info.plist */,
+				A3AAE9F324952C5000D63DAC /* SessionPageSwift.swift */,
+				A3AAE9F424952C5000D63DAC /* SwiftUI */,
 			);
 			path = meshSwift_UIKit_R;
+			sourceTree = "<group>";
+		};
+		A3AAE9F424952C5000D63DAC /* SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				A3AAE9F524952C5000D63DAC /* ListCharacterScreen.swift */,
+				A3AAE9F724952C5000D63DAC /* ListItem.swift */,
+				A3AAE9F824952C5000D63DAC /* SelectionColor.swift */,
+				A3AAE9F924952C5000D63DAC /* Player-Attributes.swift */,
+				A3AAE9FA24952C5000D63DAC /* Setting.swift */,
+				A3AAE9FB24952C5000D63DAC /* CharacterScreen.swift */,
+				A3AAE9FC24952C5000D63DAC /* BackpackScreen.swift */,
+				A3AAE9FD24952C5000D63DAC /* JoiningSession.swift */,
+				A3AAE9FE24952C5000D63DAC /* xategoryValues.swift */,
+				A3AAE9FF24952C5000D63DAC /* SessionList.swift */,
+				A3AAEA0024952C5000D63DAC /* CreateCategory.swift */,
+				A3AAEA0124952C5000D63DAC /* CreateSession.swift */,
+				A3AAEA0224952C5000D63DAC /* Sessions.swift */,
+				A3AAEA0324952C5000D63DAC /* SearchBar.swift */,
+				A3AAEA0424952C5000D63DAC /* CreateItem.swift */,
+				A3AAEA0524952C5000D63DAC /* GM-Attributes.swift */,
+				A3AAEA0624952C5000D63DAC /* List-Session.swift */,
+				A3AAEA0724952C5000D63DAC /* EquipScreen.swift */,
+				A3AAEA0824952C5000D63DAC /* CategoryList.swift */,
+				A3AAEA0924952C5000D63DAC /* ItemGameMaster.swift */,
+				A3AAEA0A24952C5000D63DAC /* CategoryValues.swift */,
+				A3AAEA0B24952C5000D63DAC /* MainGestureServer.swift */,
+				A3AAEA0C24952C5000D63DAC /* CharacterSheet.swift */,
+				A3AAEA0D24952C5000D63DAC /* prov2.swift */,
+				A3AAEA0E24952C5000D63DAC /* InventorySocketManager.swift */,
+				A3AAEA0F24952C5000D63DAC /* ItemScreen.swift */,
+				A3AAEA1024952C5000D63DAC /* LoginScreen.swift */,
+				A3AAEA1124952C5000D63DAC /* ContentView.swift */,
+				A3AAEA1224952C5000D63DAC /* prov.swift */,
+				A3AAEA1324952C5000D63DAC /* D&D-Tool 2020-06-04 16-46-42 */,
+				A3AAEA1824952C5000D63DAC /* prov3.swift */,
+			);
+			path = SwiftUI;
+			sourceTree = "<group>";
+		};
+		A3AAEA1324952C5000D63DAC /* D&D-Tool 2020-06-04 16-46-42 */ = {
+			isa = PBXGroup;
+			children = (
+				A3AAEA1424952C5000D63DAC /* Packaging.log */,
+				A3AAEA1524952C5000D63DAC /* ExportOptions.plist */,
+				A3AAEA1624952C5000D63DAC /* D&D-Tool.ipa */,
+				A3AAEA1724952C5000D63DAC /* DistributionSummary.plist */,
+			);
+			path = "D&D-Tool 2020-06-04 16-46-42";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +246,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3AAEA3C24952C5000D63DAC /* DistributionSummary.plist in Resources */,
 				A3AAE9EC24952BDB00D63DAC /* LaunchScreen.storyboard in Resources */,
+				A3AAEA3A24952C5000D63DAC /* ExportOptions.plist in Resources */,
 				A3AAE9E924952BDB00D63DAC /* Assets.xcassets in Resources */,
+				A3AAEA3B24952C5000D63DAC /* D&D-Tool.ipa in Resources */,
+				A3AAEA3924952C5000D63DAC /* Packaging.log in Resources */,
 				A3AAE9E724952BDA00D63DAC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +263,40 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3AAEA2D24952C5000D63DAC /* EquipScreen.swift in Sources */,
+				A3AAEA2024952C5000D63DAC /* Setting.swift in Sources */,
+				A3AAEA3824952C5000D63DAC /* prov.swift in Sources */,
+				A3AAEA2624952C5000D63DAC /* CreateCategory.swift in Sources */,
+				A3AAEA2C24952C5000D63DAC /* List-Session.swift in Sources */,
+				A3AAEA2F24952C5000D63DAC /* ItemGameMaster.swift in Sources */,
+				A3AAEA3D24952C5000D63DAC /* prov3.swift in Sources */,
+				A3AAEA3624952C5000D63DAC /* LoginScreen.swift in Sources */,
+				A3AAEA3224952C5000D63DAC /* CharacterSheet.swift in Sources */,
+				A3AAEA3324952C5000D63DAC /* prov2.swift in Sources */,
 				A3AAE9E424952BDA00D63DAC /* ViewController.swift in Sources */,
+				A3AAEA1D24952C5000D63DAC /* ListItem.swift in Sources */,
+				A3AAEA3024952C5000D63DAC /* CategoryValues.swift in Sources */,
+				A3AAEA2724952C5000D63DAC /* CreateSession.swift in Sources */,
+				A3AAEA1F24952C5000D63DAC /* Player-Attributes.swift in Sources */,
+				A3AAEA2124952C5000D63DAC /* CharacterScreen.swift in Sources */,
+				A3AAEA3524952C5000D63DAC /* ItemScreen.swift in Sources */,
+				A3AAEA3124952C5000D63DAC /* MainGestureServer.swift in Sources */,
 				A3AAE9E024952BDA00D63DAC /* AppDelegate.swift in Sources */,
+				A3AAEA2424952C5000D63DAC /* xategoryValues.swift in Sources */,
+				A3AAEA1B24952C5000D63DAC /* ListCharacterScreen.swift in Sources */,
+				A3AAEA1E24952C5000D63DAC /* SelectionColor.swift in Sources */,
+				A3AAEA2324952C5000D63DAC /* JoiningSession.swift in Sources */,
 				A3AAE9E224952BDA00D63DAC /* SceneDelegate.swift in Sources */,
+				A3AAEA2524952C5000D63DAC /* SessionList.swift in Sources */,
+				A3AAEA3724952C5000D63DAC /* ContentView.swift in Sources */,
+				A3AAEA2824952C5000D63DAC /* Sessions.swift in Sources */,
+				A3AAEA2924952C5000D63DAC /* SearchBar.swift in Sources */,
+				A3AAEA3424952C5000D63DAC /* InventorySocketManager.swift in Sources */,
+				A3AAEA1A24952C5000D63DAC /* SessionPageSwift.swift in Sources */,
+				A3AAEA2B24952C5000D63DAC /* GM-Attributes.swift in Sources */,
+				A3AAEA2A24952C5000D63DAC /* CreateItem.swift in Sources */,
+				A3AAEA2224952C5000D63DAC /* BackpackScreen.swift in Sources */,
+				A3AAEA2E24952C5000D63DAC /* CategoryList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
