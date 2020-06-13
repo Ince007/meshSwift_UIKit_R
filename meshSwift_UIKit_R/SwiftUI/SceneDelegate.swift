@@ -1,9 +1,9 @@
 //
 //  SceneDelegate.swift
-//  meshSwift_UIKit_R
+//  disegni
 //
-//  Created by Vincenzo Manno on 13/06/2020.
-//  Copyright © 2020 Vincenzo Manno. All rights reserved.
+//  Created by Michele Simonetti on 16/05/2020.
+//  Copyright © 2020 Michele Simonetti. All rights reserved.
 //
 
 import UIKit
@@ -18,18 +18,19 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
         // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
-        if let windowScene = scene as? UIWindowScene{
+
+        // Create the SwiftUI view that provides the window contents.
+        
+
+        // Use a UIHostingController as window root view controller.
+        if let windowScene = scene as? UIWindowScene {
             let window = UIWindow(windowScene: windowScene)
+            
+//            let categoryvalues = LoginScreen()
+            let contentView = LoginScreen()
+            window.rootViewController = UIHostingController(rootView: contentView)
             self.window = window
-            
-            
-            
-            let vc = UIHostingController(rootView: LoginScreen())
-            window.rootViewController = vc
-            
-            
             window.makeKeyAndVisible()
-            
         }
     }
 

@@ -1,0 +1,131 @@
+2020-06-04 14:46:35 +0000  Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7fa9c782d040; archive(resolved)='<IDEArchive: 0x7fa9c5ca88c0>', distributionTask(resolved)='2', distributionDestination(resolved)='1', distributionMethod(resolved)='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fa9c5d168c0>', team(resolved)='<IDEProvisioningDisambiguatableBasicTeam: 0x7fa9c51a1c20; teamID='FXPZRVA4ZR', teamName='Michele Simonetti', teamType='Individual', username='assunta.santorelli@alice.it', isFreeProvisioningTeam='0'>'>
+	Chain (12, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x7fa9c782d040; archive = '<IDEArchive: 0x7fa9c5ca88c0>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fa9c5d168c0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fa9c51a1c20; teamID='FXPZRVA4ZR', teamName='Michele Simonetti', teamType='Individual', username='assunta.santorelli@alice.it', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionProcessingPipelineContext: 0x7fa9c5675fa0; archive = '<IDEArchive: 0x7fa9c5ca88c0>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fa9c5d168c0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fa9c51a1c20; teamID='FXPZRVA4ZR', teamName='Michele Simonetti', teamType='Individual', username='assunta.santorelli@alice.it', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fa9c5bdf3d0; archive = '<IDEArchive: 0x7fa9c5ca88c0>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fa9c5d168c0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fa9c51a1c20; teamID='FXPZRVA4ZR', teamName='Michele Simonetti', teamType='Individual', username='assunta.santorelli@alice.it', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fa9c5e9d760; archive = '<IDEArchive: 0x7fa9c5ca88c0>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fa9c5d168c0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fa9c51a1c20; teamID='FXPZRVA4ZR', teamName='Michele Simonetti', teamType='Individual', username='assunta.santorelli@alice.it', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fa9c565b770; archive = '<IDEArchive: 0x7fa9c5ca88c0>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fa9c5d168c0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fa9c51a1c20; teamID='FXPZRVA4ZR', teamName='Michele Simonetti', teamType='Individual', username='assunta.santorelli@alice.it', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fa9c5c43190; archive = '<IDEArchive: 0x7fa9c5ca88c0>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fa9c5d168c0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fa9c51a1c20; teamID='FXPZRVA4ZR', teamName='Michele Simonetti', teamType='Individual', username='assunta.santorelli@alice.it', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fa9c5da88b0; archive = '<IDEArchive: 0x7fa9c5ca88c0>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fa9c5d168c0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fa9c51a1c20; teamID='FXPZRVA4ZR', teamName='Michele Simonetti', teamType='Individual', username='assunta.santorelli@alice.it', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fa9c5d902a0; archive = '<IDEArchive: 0x7fa9c5ca88c0>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fa9c5d168c0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fa9c51a1c20; teamID='FXPZRVA4ZR', teamName='Michele Simonetti', teamType='Individual', username='assunta.santorelli@alice.it', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fa9c5ddea70; archive = '<IDEArchive: 0x7fa9c5ca88c0>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fa9c5d168c0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fa9c51a1c20; teamID='FXPZRVA4ZR', teamName='Michele Simonetti', teamType='Individual', username='assunta.santorelli@alice.it', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fa9c5fbdb80; archive = '<IDEArchive: 0x7fa9c5ca88c0>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fa9c5d168c0>', team='(null)'>
+	<IDEDistributionContext: 0x7fa9c5ea65e0; archive = '<IDEArchive: 0x7fa9c5ca88c0>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fa9c5d168c0>', team='(null)'>
+	<IDEDistributionContext: 0x7fa9c7b4e8d0; archive = '<IDEArchive: 0x7fa9c5ca88c0>', distributionMethod='(null)', team='(null)'>
+</IDEDistributionProcessingPipelineContext: 0x7fa9c782d040>
+2020-06-04 14:46:35 +0000  Processing step: IDEDistributionCreateDestRootStep
+2020-06-04 14:46:35 +0000  Processing step: IDEDistributionCopyItemStep
+2020-06-04 14:46:35 +0000  Running /usr/bin/ditto '-V' '/Users/michelesimonetti/Library/Developer/Xcode/Archives/2020-06-04/D&D-Tool 04-06-2020, 16.39.xcarchive/Products/Applications/D&D-Tool.app' '/var/folders/vr/4w9n_4014_33_722xqxrdtbc0000gq/T/XcodeDistPipeline.~~~rqJ6Em/Root/Payload/D&D-Tool.app'
+2020-06-04 14:46:35 +0000  >>> Copying /Users/michelesimonetti/Library/Developer/Xcode/Archives/2020-06-04/D&D-Tool 04-06-2020, 16.39.xcarchive/Products/Applications/D&D-Tool.app 
+2020-06-04 14:46:35 +0000  copying file ./_CodeSignature/CodeResources ... 
+2020-06-04 14:46:35 +0000  3233 bytes for ./_CodeSignature/CodeResources
+2020-06-04 14:46:35 +0000  copying file ./D&D-Tool ... 
+2020-06-04 14:46:35 +0000  673792 bytes for ./D&D-Tool
+2020-06-04 14:46:35 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2020-06-04 14:46:35 +0000  1197 bytes for ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+copying file ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2020-06-04 14:46:35 +0000  896 bytes for ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+2020-06-04 14:46:35 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2020-06-04 14:46:35 +0000  258 bytes for ./Base.lproj/LaunchScreen.storyboardc/Info.plist
+2020-06-04 14:46:35 +0000  copying file ./Assets.car ... 
+2020-06-04 14:46:35 +0000  334143 bytes for ./Assets.car
+copying file ./embedded.mobileprovision ... 
+2020-06-04 14:46:35 +0000  7390 bytes for ./embedded.mobileprovision
+copying file ./Info.plist ... 
+2020-06-04 14:46:35 +0000  1346 bytes for ./Info.plist
+copying file ./PkgInfo ... 
+2020-06-04 14:46:35 +0000  8 bytes for ./PkgInfo
+2020-06-04 14:46:35 +0000  /usr/bin/ditto exited with 0
+2020-06-04 14:46:35 +0000  Processing step: IDEDistributionEmbedProfileStep
+2020-06-04 14:46:35 +0000  Processing step: IDEDistributionInfoPlistStep
+2020-06-04 14:46:35 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2020-06-04 14:46:35 +0000  Processing step: IDEDistributionItemRemovalStep
+2020-06-04 14:46:35 +0000  Processing step: IDEDistributionAppThinningPlistStep
+2020-06-04 14:46:35 +0000  Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2020-06-04 14:46:35 +0000  Processing step: IDEDistributionCompileBitcodeStep
+2020-06-04 14:46:35 +0000  Skipping step: IDEDistributionCompileBitcodeStep because it said so
+2020-06-04 14:46:35 +0000  Processing step: IDEDistributionCodeSlimmingStep
+2020-06-04 14:46:35 +0000  Processing step: IDEDistributionCopyBCSymbolMapsStep
+2020-06-04 14:46:35 +0000  Running /usr/bin/ditto '-V' '/Users/michelesimonetti/Library/Developer/Xcode/Archives/2020-06-04/D&D-Tool 04-06-2020, 16.39.xcarchive/BCSymbolMaps/78C3B927-7AD9-3CC5-9BEC-26B70E70D8A3.bcsymbolmap' '/var/folders/vr/4w9n_4014_33_722xqxrdtbc0000gq/T/XcodeDistPipeline.~~~rqJ6Em/Root/BCSymbolMaps/78C3B927-7AD9-3CC5-9BEC-26B70E70D8A3.bcsymbolmap'
+2020-06-04 14:46:35 +0000  >>> Copying /Users/michelesimonetti/Library/Developer/Xcode/Archives/2020-06-04/D&D-Tool 04-06-2020, 16.39.xcarchive/BCSymbolMaps/78C3B927-7AD9-3CC5-9BEC-26B70E70D8A3.bcsymbolmap 
+2020-06-04 14:46:35 +0000  copying file ./78C3B927-7AD9-3CC5-9BEC-26B70E70D8A3.bcsymbolmap ... 
+2020-06-04 14:46:35 +0000  128810 bytes for ./78C3B927-7AD9-3CC5-9BEC-26B70E70D8A3.bcsymbolmap
+2020-06-04 14:46:35 +0000  /usr/bin/ditto exited with 0
+2020-06-04 14:46:35 +0000  Processing step: IDEDistributionSymbolsStep
+2020-06-04 14:46:35 +0000  Excluding symbols for D&D-Tool.app
+2020-06-04 14:46:35 +0000  Processing step: IDEDistributionCopyAppleProvidedContentStep
+2020-06-04 14:46:35 +0000  Processing step: IDEDistributionAppThinningStep
+2020-06-04 14:46:35 +0000  Skipping step: IDEDistributionAppThinningStep because it said so
+2020-06-04 14:46:35 +0000  Processing step: IDEDistributionArchThinningStep
+2020-06-04 14:46:35 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/vr/4w9n_4014_33_722xqxrdtbc0000gq/T/XcodeDistPipeline.~~~rqJ6Em/Root/Payload/D&D-Tool.app/D&D-Tool' '-verify_arch' 'arm64e'
+2020-06-04 14:46:35 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2020-06-04 14:46:35 +0000  Skipping architecture thinning for item "D&D-Tool" because arch "arm64e" wasn't found
+2020-06-04 14:46:35 +0000  Processing step: IDEDistributionODRStep
+2020-06-04 14:46:35 +0000  Processing step: IDEDistributionStripXattrsStep
+2020-06-04 14:46:35 +0000  Running /usr/bin/xattr '-crs' '/var/folders/vr/4w9n_4014_33_722xqxrdtbc0000gq/T/XcodeDistPipeline.~~~rqJ6Em/Root/Payload/D&D-Tool.app'
+2020-06-04 14:46:35 +0000  /usr/bin/xattr exited with 0
+2020-06-04 14:46:35 +0000  Processing step: IDEDistributionCodesignStep
+2020-06-04 14:46:35 +0000  Entitlements for <IDEDistributionItem: 0x7fa9c5e052c0; bundleID='-23.disegni', path='<DVTFilePath:0x7fa9c5c94330:'/Users/michelesimonetti/Library/Developer/Xcode/Archives/2020-06-04/D&D-Tool 04-06-2020, 16.39.xcarchive/Products/Applications/D&D-Tool.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa9be7676e0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa9c7b213f0; name='Apple Development: assunta.santorelli@alice.it (NMX7MSF6BR)', hash='4284F5376E5FC28942AC74BAD254814D8ABF15EA', serialNumber='3B37EE93F8C0BE96', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-10-25 12:45:30 +0000''>', entitlements='{
+    "application-identifier" = "FXPZRVA4ZR.-23.disegni";
+    "com.apple.developer.team-identifier" = FXPZRVA4ZR;
+    "get-task-allow" = 1;
+    "keychain-access-groups" =     (
+        "FXPZRVA4ZR.-23.disegni"
+    );
+}', teamID='FXPZRVA4ZR', identifier='-23.disegni', executablePath='<DVTFilePath:0x7fa9c5db7ff0:'/Users/michelesimonetti/Library/Developer/Xcode/Archives/2020-06-04/D&D-Tool 04-06-2020, 16.39.xcarchive/Products/Applications/D&D-Tool.app/D&D-Tool'>', hardenedRuntime='0'>'>: {
+    "application-identifier" = "FXPZRVA4ZR.-23.disegni";
+    "beta-reports-active" = 1;
+    "com.apple.developer.team-identifier" = FXPZRVA4ZR;
+    "get-task-allow" = 0;
+    "keychain-access-groups" =     (
+        "FXPZRVA4ZR.-23.disegni"
+    );
+}
+2020-06-04 14:46:35 +0000  Writing entitlements for <IDEDistributionItem: 0x7fa9c5e052c0; bundleID='-23.disegni', path='<DVTFilePath:0x7fa9c5c94330:'/Users/michelesimonetti/Library/Developer/Xcode/Archives/2020-06-04/D&D-Tool 04-06-2020, 16.39.xcarchive/Products/Applications/D&D-Tool.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa9be7676e0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa9c5d90ad0; name='Apple Development: assunta.santorelli@alice.it (NMX7MSF6BR)', hash='4284F5376E5FC28942AC74BAD254814D8ABF15EA', serialNumber='3B37EE93F8C0BE96', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-10-25 12:45:30 +0000''>', entitlements='{
+    "application-identifier" = "FXPZRVA4ZR.-23.disegni";
+    "com.apple.developer.team-identifier" = FXPZRVA4ZR;
+    "get-task-allow" = 1;
+    "keychain-access-groups" =     (
+        "FXPZRVA4ZR.-23.disegni"
+    );
+}', teamID='FXPZRVA4ZR', identifier='-23.disegni', executablePath='<DVTFilePath:0x7fa9c5db7ff0:'/Users/michelesimonetti/Library/Developer/Xcode/Archives/2020-06-04/D&D-Tool 04-06-2020, 16.39.xcarchive/Products/Applications/D&D-Tool.app/D&D-Tool'>', hardenedRuntime='0'>'> to: /var/folders/vr/4w9n_4014_33_722xqxrdtbc0000gq/T/XcodeDistPipeline.~~~rqJ6Em/entitlements~~~ubaCLN
+2020-06-04 14:46:35 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'F5D78FAE4FA3283BEBC54D70636834BF0F331861' '--entitlements' '/var/folders/vr/4w9n_4014_33_722xqxrdtbc0000gq/T/XcodeDistPipeline.~~~rqJ6Em/entitlements~~~ubaCLN' '--preserve-metadata=identifier,flags,runtime' '/var/folders/vr/4w9n_4014_33_722xqxrdtbc0000gq/T/XcodeDistPipeline.~~~rqJ6Em/Root/Payload/D&D-Tool.app'
+2020-06-04 14:46:40 +0000  /var/folders/vr/4w9n_4014_33_722xqxrdtbc0000gq/T/XcodeDistPipeline.~~~rqJ6Em/Root/Payload/D&D-Tool.app: signed app bundle with Mach-O thin (arm64) [-23.disegni]
+2020-06-04 14:46:40 +0000  /usr/bin/codesign exited with 0
+2020-06-04 14:46:40 +0000  Processing step: IDEDistributionZipODRItemStep
+2020-06-04 14:46:40 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2020-06-04 14:46:40 +0000  Processing step: IDEDistributionCreateIPAStep
+2020-06-04 14:46:40 +0000  Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/vr/4w9n_4014_33_722xqxrdtbc0000gq/T/XcodeDistPipeline.~~~rqJ6Em/Root' '/var/folders/vr/4w9n_4014_33_722xqxrdtbc0000gq/T/XcodeDistPipeline.~~~rqJ6Em/Packages/D&D-Tool.ipa'
+2020-06-04 14:46:40 +0000  >>> Copying /var/folders/vr/4w9n_4014_33_722xqxrdtbc0000gq/T/XcodeDistPipeline.~~~rqJ6Em/Root 
+2020-06-04 14:46:40 +0000  copying file ./BCSymbolMaps/78C3B927-7AD9-3CC5-9BEC-26B70E70D8A3.bcsymbolmap ... 
+2020-06-04 14:46:40 +0000  128810 bytes for ./BCSymbolMaps/78C3B927-7AD9-3CC5-9BEC-26B70E70D8A3.bcsymbolmap
+2020-06-04 14:46:40 +0000  copying file ./Payload/D&D-Tool.app/_CodeSignature/CodeResources ... 
+2020-06-04 14:46:40 +0000  3233 bytes for ./Payload/D&D-Tool.app/_CodeSignature/CodeResources
+copying file ./Payload/D&D-Tool.app/D&D-Tool ... 
+2020-06-04 14:46:40 +0000  519568 bytes for ./Payload/D&D-Tool.app/D&D-Tool
+2020-06-04 14:46:40 +0000  copying file ./Payload/D&D-Tool.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2020-06-04 14:46:40 +0000  1197 bytes for ./Payload/D&D-Tool.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+copying file ./Payload/D&D-Tool.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2020-06-04 14:46:40 +0000  896 bytes for ./Payload/D&D-Tool.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+2020-06-04 14:46:40 +0000  copying file ./Payload/D&D-Tool.app/Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+258 bytes for ./Payload/D&D-Tool.app/Base.lproj/LaunchScreen.storyboardc/Info.plist
+2020-06-04 14:46:40 +0000  copying file ./Payload/D&D-Tool.app/Assets.car ... 
+2020-06-04 14:46:40 +0000  334143 bytes for ./Payload/D&D-Tool.app/Assets.car
+2020-06-04 14:46:40 +0000  copying file ./Payload/D&D-Tool.app/embedded.mobileprovision ... 
+7338 bytes for ./Payload/D&D-Tool.app/embedded.mobileprovision
+2020-06-04 14:46:40 +0000  copying file ./Payload/D&D-Tool.app/Info.plist ... 
+1346 bytes for ./Payload/D&D-Tool.app/Info.plist
+copying file ./Payload/D&D-Tool.app/PkgInfo ... 
+2020-06-04 14:46:40 +0000  8 bytes for ./Payload/D&D-Tool.app/PkgInfo
+2020-06-04 14:46:40 +0000  /usr/bin/ditto exited with 0
+2020-06-04 14:46:40 +0000  Processing step: IDEDistributionAppStoreInformationStep
+2020-06-04 14:46:40 +0000  Skipping step: IDEDistributionAppStoreInformationStep because it said so
+2020-06-04 14:46:40 +0000  Processing step: IDEDistributionGenerateProcessedDistributionItems
+2020-06-04 14:46:40 +0000  Processing step: IDEDistributionCreateManifestStep
+2020-06-04 14:46:40 +0000  Skipping step: IDEDistributionCreateManifestStep because it said so

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>D&amp;D-Tool.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>arm64</string>
+			</array>
+			<key>bitcode</key>
+			<true/>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>F5D78FAE4FA3283BEBC54D70636834BF0F331861</string>
+				<key>dateExpires</key>
+				<string>04/06/2021</string>
+				<key>type</key>
+				<string>Apple Distribution</string>
+			</dict>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>FXPZRVA4ZR.-23.disegni</string>
+				<key>beta-reports-active</key>
+				<true/>
+				<key>com.apple.developer.team-identifier</key>
+				<string>FXPZRVA4ZR</string>
+				<key>get-task-allow</key>
+				<false/>
+				<key>keychain-access-groups</key>
+				<array>
+					<string>FXPZRVA4ZR.-23.disegni</string>
+				</array>
+			</dict>
+			<key>name</key>
+			<string>D&amp;D-Tool.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>5d3783f4-4b69-4296-b115-72af05eaf2e2</string>
+				<key>name</key>
+				<string>iOS Team Store Provisioning Profile: -23.disegni</string>
+			</dict>
+			<key>symbols</key>
+			<true/>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>FXPZRVA4ZR</string>
+				<key>name</key>
+				<string>Michele Simonetti</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
